@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.box {
+    height:auto;
+    width:auto;
+    background-color:rgb(151, 151, 165);
+    padding-top: 120px;
+    padding-right: 350px;
+    padding-bottom: 140px;
+    padding-left: 100px;
+    color:blue;
+    border-width: 5px 5px 5px 5px;
+    border-color: blue;
+    border-style: solid;
+    outline-color: blue;
+}
+.trip_booking {
+    height:auto;
+    background:#fff;
+    border:1px solid #E7F1F3;
+    border-radius:5px;
+    color:#0a0808;
+    font-size:14px;
+    height:auto;
+    line-height:18px;
+    text-align:left;
+    display:block;
+    padding:10px 20px;
+    margin-bottom:10px;
+}
+.border {
+    border-bottom: 1px dotted #00aad2; 
+    margin: 0 0 15px;
+}
+.trip_booking .booking_form {
+    width:auto;
+    height:auto;
+    padding:6px 0 0 0;
+}
+.trip_booking .booking_form ul li {
+    display:block;
+}
+.trip_booking .booking_form ul li label {
+    color:rgb(7, 5, 5);
+    font-size:14px;
+    text-align:left;
+    vertical-align:top;
+    line-height:28px;
+}
+.trip_booking .booking_form ul li label .field-required {
+    color:#cc0066;
+    font-family:"open_sansregular",Tahoma,Calibri,Arial,sans-serif;
+    font-size:20px;
+}
+.trip_booking .booking_form ul li .left {
+    float: left;
+    height: auto;
+    width: 310px;
+}
+.trip_booking .booking_form ul li .right {
+    float: right;
+    height: auto;
+    width: 300px;
+    margin-left:10px;
+}
+.trip_booking .booking_form ul li h4{
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    color:#02241fd5;
+    text-align: left;
+    font-weight:700;
+    text-transform:uppercase;
+    line-height:28px; 
+    margin-bottom:10px;
+}
+.trip_booking .booking_form ul li p {
+    font-family: Georgia, "Times New Roman", Times, serif; 
+    font-size:16px; 
+    color:#02241fd5; 
+    padding:0 0 15px;
+}
+.trip_booking .booking_form ul li .twofields {
+    width:188px; 
+    display:inline-block;
+}
+.trip_booking .booking_form ul li .fields {
+    width:335px;
+    display:inline;
+}
+.trip_booking .booking_form ul li .fields .error {
+    color:#B94A48;
+    font-size:12px;
+    line-height:22px;
+}
+.trip_booking .booking_form ul li .price {
+    color:#282828;
+    font-size:16px;
+    text-align:left;
+    font-weight:bold;
+}
+.trip_booking .booking_form ul li .tagline {
+    font-family: "open_sansregular",Tahoma,Calibri,Arial,sans-serif; 
+    font-size:14px; 
+    color:#070606; 
+    clear:both; 
+    padding-bottom:15px;
+}
+.trip_booking .booking_form ul li .fields span img {
+    vertical-align:top; 
+    margin:5px 0 0 20px;
+}
+.trip_booking .booking_form input {
+    border:1px solid #e6edf5;
+    color:#333;font-family:"open_sansregular",Tahoma,Calibri,Arial,sans-serif;
+    padding:5px;border-radius: 0; 
+    box-shadow:none;
+}
+.trip_booking .booking_form .inputfield {
+    border:1px solid #e6edf5;
+    color:#333;
+    font-family:"open_sansregular",Tahoma,Calibri,Arial,sans-serif;
+    font-size:14px;
+    padding:5px;
+}
+.trip_booking .booking_form .inputtext { border:1px solid #e6edf5;
+    color:#333;
+    font-family:"open_sansregular",Tahoma,Calibri,Arial,sans-serif;
+    font-size:14px;padding:5px;
+}
+.trip_booking .booking_form textarea,.booking_form text {
+    border:1px solid #e6edf5;
+    color:#333;
+    font-family:"open_sansregular",Tahoma,Calibri,Arial,sans-serif;
+    font-size:14px;
+    height:60px;
+    padding:5px;
+    border-radius:0;
+    box-shadow:none; 
+    resize:none;
+}
+.trip_booking .booking_form select {
+    border:1px solid #e6edf5;
+    color:#333;
+    font-family:"open_sansregular",Tahoma,Calibri,Arial,sans-serif;;
+    font-size:14px;
+    padding:5px;
+    border-radius:0;
+    box-shadow:none;
+}
+.trip_booking .booking_form .helper {
+    color:#969696;
+    font-size:11px;
+    text-align:left;
+}
+.trip_booking .booktrip_btn { 
+    padding:10px;
+    text-align:left;
+    color:#645f60;
+}
+.trip_booking .terms {
+    font-size:11px !important; 
+    color: rgb(15, 11, 11); 
+    text-align:left;
+    line-height:normal;
+    width:auto;
+    height:auto !important;
+    margin: 6px 0 16px; 
+    text-transform:uppercase;
+}
+.trip_booking .terms a {
+    color:#1517c4d5;
+    text-decoration:none; 
+    font-size:11px;
+}
+.star {
+    color: #cc0066;
+    font-family: "open_sansregular",Tahoma,Calibri,Arial,sans-serif; font-size: 12px;
+}
+.package_container .rt_panelbox .rt_inquirebox .note { 
+    color:#0c0b0a; 
+    font-size:11px;
+    text-align:left;
+    padding:16px 0 0 0;
+    text-transform:uppercase;
+    line-height:14px;
+}
+input[type="radio"], input[type="checkbox"] {
+    line-height: normal;
+    margin: 0 5px 0 0;
+}
+
+
+
+
+input[type="text"], input[type="number"], input[type="email"], textarea{
+    background-color: #DDDD;
+}
+
+.book-this-trip{
+    padding:5px; width:100%;
+    background-color: #87cfeb;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    }
+
+.adults, 
+.paymentoption, 
+.name_container, 
+.email_container, 
+.phone_container, 
+.customer_address_container,
+.city_postal_container,
+.country_state_container{
+    margin-bottom:10px;
+}
+
+.num_adults{
+    margin-left: 166px;
+    width: 800px;
+
+}
+.payment-option{
+    margin-left: 216px;
+    width: 800px;
+
+}
+.label_customer_lastname, 
+.label_customer_postalcode,
+.label_customer_state{
+    margin-left: 30px;
+}
+.customer_firstname{
+   margin-left: 170px; 
+   width: 295px;
+}
+.customer_lastname{
+   margin-left: 100px; 
+   width: 295px;
+}
+.customer_phone{
+    margin-left: 175px;
+    width: 800px;
+}
+.customer_email{
+    margin-left: 205px;
+    width: 800px;
+}
+.customer_address{
+    margin-left: 189px;
+    width: 800px;
+}
+.customer_city{
+    margin-left: 214px; 
+    width: 295px;
+}
+.customer_postalcode{
+    margin-left: 91px; 
+    width: 295px;
+}
+.customer_country{
+    margin-left: 187px; 
+    width: 295px;
+}
+.customer_state{
+    margin-left: 109px; 
+    width: 295px;
+}
+.requirement{
+    margin-left: 190px; 
+    width: 800px; 
+}
+label{
+    font-weight: bold;
+}
+
+@media only screen and (max-width:1900px) {
+    .adults, 
+    .paymentoption, 
+    .name_container, 
+    .email_container, 
+    .phone_container, 
+    .customer_address_container,
+    .city_postal_container,
+    .country_state_container{
+        margin-bottom:10px;
+    }
+
+    .num_adults{
+        margin-left: 100px;
+        width: 500px;
+
+    }
+    .payment-option{
+        margin-left: 100px;
+        width: 500px;
+
+    }
+    .label_customer_lastname, 
+    .label_customer_postalcode,
+    .label_customer_state{
+        margin-left: 10px;
+    }
+    .customer_firstname{
+       margin-left: 35px; 
+       width: 150px;
+    }
+    .customer_lastname{
+       margin-left: 50px; 
+       width: 150px;
+    }
+    .customer_phone{
+        margin-left: 57px;
+        width: 500px;
+    }
+    .customer_email{
+        margin-left: 103px;
+        width: 500px;
+    }
+    .customer_address{
+        margin-left: 107px;
+        width: 500px;
+    }
+    .customer_city{
+        margin-left: 150px; 
+        width: 145px;
+    }
+    .customer_postalcode{
+        margin-left: 45px; 
+        width: 145px;
+    }
+    .customer_country{
+        margin-left: 145px; 
+        width: 150px;
+    }
+    .customer_state{
+        margin-left: 450px; 
+        width: 145px;
+    }
+    .requirement{
+        margin-left: 104px; 
+        width: 500px; 
+    }
+    label{
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width:1900px) {
+    .adults, 
+    .paymentoption, 
+    .name_container, 
+    .email_container, 
+    .phone_container, 
+    .customer_address_container,
+    .city_postal_container,
+    .country_state_container{
+        margin-bottom:10px;
+    }
+
+    .num_adults{
+        margin-left: 100px;
+        width: 500px;
+
+    }
+    .payment-option{
+        margin-left: 100px;
+        width: 500px;
+
+    }
+    .label_customer_lastname, 
+    .label_customer_postalcode,
+    .label_customer_state{
+        margin-left: 10px;
+    }
+    .customer_firstname{
+       margin-left: 35px; 
+       width: 150px;
+    }
+    .customer_lastname{
+       margin-left: 50px; 
+       width: 150px;
+    }
+    .customer_phone{
+        margin-left: 57px;
+        width: 500px;
+    }
+    .customer_email{
+        margin-left: 103px;
+        width: 500px;
+    }
+    .customer_address{
+        margin-left: 107px;
+        width: 500px;
+    }
+    .customer_city{
+        margin-left: 150px; 
+        width: 145px;
+    }
+    .customer_postalcode{
+        margin-left: 45px; 
+        width: 145px;
+    }
+    .customer_country{
+        margin-left: 145px; 
+        width: 150px;
+    }
+    .customer_state{
+        margin-left: 37px; 
+        width: 145px;
+    }
+    .requirement{
+        margin-left: 104px; 
+        width: 500px; 
+    }
+    label{
+        font-weight: bold;
+    }
+}
+
+
+@media only screen and (max-width:1470px) {
+    .adults, 
+    .paymentoption, 
+    .name_container, 
+    .email_container, 
+    .phone_container, 
+    .customer_address_container,
+    .city_postal_container,
+    .country_state_container{
+        margin-bottom:10px;
+    }
+
+    .num_adults{
+        margin-left: 50px;
+        width: 649px;
+
+    }
+    .payment-option{
+        margin-left: 100px;
+        width: 649px;
+
+    }
+    .label_customer_lastname, 
+    .label_customer_postalcode,
+    .label_customer_state{
+        margin-left: 20px;
+    }
+    .customer_firstname{
+       margin-left: 50px; 
+       width: 265px;
+    }
+    .customer_lastname{
+       margin-left: 30px; 
+       width: 256px;
+    }
+    .customer_phone{
+        margin-left: 53px;
+        width: 653px;
+    }
+    .customer_email{
+        margin-left: 83px;
+        width: 653px;
+    }
+    .customer_address{
+        margin-left: 67px;
+        width: 653px;
+    }
+    .customer_city{
+        margin-left: 90px; 
+        width: 265px;
+    }
+    .customer_postalcode{
+        margin-left: 35px; 
+        width: 245px;
+    }
+    .customer_country{
+        margin-left: 64px; 
+        width: 265px;
+    }
+    .customer_state{
+        margin-left: 49px; 
+        width: 245px;
+    }
+    .requirement{
+        margin-left: 65px; 
+        width: 410px; 
+    }
+    label{
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .adults, 
+    .paymentoption, 
+    .name_container, 
+    .email_container, 
+    .phone_container, 
+    .customer_address_container,
+    .city_postal_container,
+    .country_state_container{
+        margin-bottom:10px;
+    }
+
+    .num_adults{
+        margin-left: 25px;
+        width: 515px;
+
+    }
+    .payment-option{
+        margin-left: 77px;
+        width: 515px;
+
+    }
+    .label_customer_lastname, 
+    .label_customer_postalcode,
+    .label_customer_state{
+        margin-left: 15px;
+    }
+    .customer_firstname{
+       margin-left: 32px; 
+       width: 190px;
+    }
+    .customer_lastname{
+       margin-left: 20px; 
+       width: 208px;
+    }
+    .customer_phone{
+        margin-left: 34px;
+        width: 516px;
+    }
+    .customer_email{
+        margin-left: 65px;
+        width: 516px;
+    }
+    .customer_address{
+        margin-left: 49px;
+        width: 517px;
+    }
+    .customer_city{
+        margin-left: 74px; 
+        width: 196px;
+    }
+    .customer_postalcode{
+        margin-left: 9px; 
+        width: 207px;
+    }
+    .customer_country{
+        margin-left: 48px; 
+        width: 196px;
+    }
+    .customer_state{
+        margin-left: 23px; 
+        width: 207px;
+    }
+    .requirement{
+        margin-left: 67px; 
+        width: 351px; 
+    }
+    label{
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .adults, 
+    .paymentoption, 
+    .name_container, 
+    .email_container, 
+    .phone_container, 
+    .customer_address_container,
+    .city_postal_container,
+    .country_state_container{
+        margin-bottom:10px;
+    }
+
+    .num_adults{
+        margin-left: 18px;
+        width: 370px;
+
+    }
+    .payment-option{
+        margin-left: 65px;
+        width: 370px;
+
+    }
+    .label_customer_lastname, 
+    .label_customer_postalcode,
+    .label_customer_state{
+        margin-left: 15px;
+    }
+    .customer_firstname{
+       margin-left: 18px; 
+       width: 119px;
+    }
+    .customer_lastname{
+       margin-left: 15px; 
+       width: 135px;
+    }
+    .customer_phone{
+        margin-left: 20px;
+        width: 366px;
+    }
+    .customer_email{
+        margin-left: 51px;
+        width: 367px;
+    }
+    .customer_address{
+        margin-left: 35px;
+        width: 367px;
+    }
+    .customer_city{
+        margin-left: 60px; 
+        width: 120px;
+    }
+    .customer_postalcode{
+        margin-left: 9px; 
+        width: 131px;
+    }
+    .customer_country{
+        margin-left: 32px; 
+        width: 124px;
+    }
+    .customer_state{
+        margin-left: 22px; 
+        width: 131px;
+    }
+    .requirement{
+        margin-left: 40px; 
+        width: 357px; 
+    }
+    label{
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .adults, 
+    .paymentoption, 
+    .name_container, 
+    .email_container, 
+    .phone_container, 
+    .customer_address_container,
+    .city_postal_container,
+    .country_state_container{
+        margin-bottom:10px;
+    }
+
+    .num_adults{
+        margin-left: 2px;
+        width: 106px;
+
+    }
+    .payment-option{
+        margin-left: 52px;
+        width: 104px;
+
+    }
+    .label_customer_lastname, 
+    .label_customer_postalcode,
+    .label_customer_state{
+        margin-left: 3px;
+    }
+    .customer_firstname{
+       margin-left: 6px; 
+       width: 106px;
+    }
+    .customer_lastname{
+       margin-left: 5px; 
+       width: 106px;
+    }
+    .customer_phone{
+        margin-left: 8px;
+        width: 106px;
+    }
+    .customer_email{
+        margin-left: 38px;
+        width: 107px;
+    }
+    .customer_address{
+        margin-left: 21px;
+        width: 108px;
+    }
+    .customer_city{
+        margin-left: 47px; 
+        width: 107px;
+    }
+    .customer_postalcode{
+        margin-left: 6px; 
+        width: 95px;
+    }
+    .customer_country{
+        margin-left: 2px; 
+        width: 124px;
+    }
+    .customer_state{
+        margin-left: 3px; 
+        width: 110px;
+    }
+    .requirement{
+        margin-left: 10px; 
+        width: 120px; 
+    }
+    label{
+        font-weight: bold;
+    }
+}
